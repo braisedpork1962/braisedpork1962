@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 100%;
+}
+#wrapper{
+    width: 100%;
+    margin: auto;
+}
+#header{
+    background-image: url(../images/beg2.jpg);
+    background-repeat: no-repeat;
+    min-height: 800px;
+    background-position: top center;
+    background-size: cover;
+}
+#ahLogo{
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 160px;
+    margin-top: 50px;
+    margin-left:100px;
+    float: left;
+}
+#ahLogo a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-indent: -9999px;
+}
+#headerabout{
+    width: 80%;
+    float: left;
+    margin: 0.5em 10%;
+    text-align: center;
+}
+#headerabout p{
+    text-shadow: 0px 0px 10px rgb(0, 174, 255);
+    border-top: 4px solid rgb(0, 0, 0);
+    border-bottom: 4px solid rgb(0, 0, 0);
+    width: 50%;
+    margin: 0 25%;
+    padding: 0.1em 0;
+}
+#nav{
+    background-image: url(../images/navBg2.png);
+    background-repeat: repeat-x;
+    height: 50px;
+}
+#nav,#footer{
+    text-align: center;
+}
+#nav ul{
+    list-style-type: none;
+    padding-top: 8px ;
+}
+#nav ul li{
+    width: 12.6%;
+    float: left;
+    margin: 0 2%;
+}
+#nav ul li a{
+    width: 100%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    display: block;
+    font-size: 1.2em;
+    text-decoration:  none;
+    border-radius: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+#nav ul li a:hover{
+    text-align: left;
+    padding-left: 35px;
+    padding-top: 10px ;
+    border-radius: 30px  10px  30px  10px;
+    font-size: 1.3em;
+    font-weight: bolder;
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+    background-position: 8px;
+}
+#contentAbout,#contentNews,#contentPhoto,#contentProject,#contentStory,#contentLocation{
+    width: 90%;
+    margin: 1em 5%;
+}
+    h2{
+    font-size: 1.5em;
+    text-align: center;
+    border-bottom: 8px  ridge rgb(251, 219, 160);
+    letter-spacing: 0.4em;
+    text-shadow:  3px 3px 10px;
+    padding-bottom: 0.4em;
+    }
+    #contentAbout{
+        border: 3px dotted rgb(255, 135, 65);
+        border-radius: 20px;
+        margin-top: 2em ;
+        margin-bottom: 2em ;
+        background-image:  url(../images/aboutbg.png);
+        padding-top: 1.5em;
+    }
+    #contentAbout p{
+        background-color: rgba(249, 205, 160,0.5);
+        margin: 1.5em;
+        padding: 0.5em;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px 5px rgb(191, 226, 255);
+        font-size: 1.1em;
+        letter-spacing: 0.2em;
+        text-align: center;
+    }
+    #contentNews p{
+        width: 30%;
+        height: 180px;
+        background-color: rgb(249, 205, 160);
+        color: rgb(0, 0, 0);
+        float: left;
+        margin: 2em  1.5%;
+        text-align: center;
+        border-radius: 50%;
+        padding-top: 130px;
+        font-size: 1.2em;
+        box-shadow: 0px 0px 10px 7px  rgb(124, 46, 0);
+    }
+    .newsp2{
+    color: rgb(174, 0, 209);
+    font-weight: bold;
+    font-size: 1.1em;
+    }
+    #contentPhoto{
+        text-align: center;
+    }
+    #contentPhoto img{
+    margin: 2em;
+    border-radius: 20px;
+    box-shadow: 0px 0px 12.5px 5px rgb(191, 226, 255);
+    }
+.foodpro caption{
+        font-size: 1.3em;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+        border-bottom: 3px dotted rgb(255,135,65 );
+        letter-spacing: 0.3em;
+    }
+.foodpro{
+    width: 80%;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 0 10%;
+}
+.foodpro th{
+    font-size: 1.1em;
+    width: 48%;
+    border: 3px solid rgb(255, 135, 65);
+    background-color: antiquewhite;
+    padding:  1%;
+    letter-spacing: 0.5em;
+}
+.foodpro td{
+    font-size: 1em;
+    border: 3px solid rgb(249,205,160);
+    padding: 0.7%;
+    letter-spacing: 0.3em;
+}
+#contentStory h3{
+    font-size: 1.0em;
+    margin: 1.5em;
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    color: brown;
+}
+#contentStory p{
+    font-size: 1em;
+    margin: 1em 4em;
+    letter-spacing: 0.2em;
+    line-height: 1.6em;
+    text-indent: 2.4em;
+    text-align: justify ;
+}
+#gomap{
+    width: 80%;
+    height: 500px;
+    margin: 1.5em 10%;
+}
+#footer{
+    background-color: rgb(249, 205, 160);
+    color: rgb(0, 0, 0);
+    padding: 8px 0;
+    font-size: 0.9em;
+}
